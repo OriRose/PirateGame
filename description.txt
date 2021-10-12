@@ -1,0 +1,13 @@
+Requirments:
+
+Build a simple "snakes and ladders"-like game with 6 spots. Only part of the board will be visible at any given moment and the user can scroll toggleable drag-and-scroll.
+The outliner will contain a 6 sided die and a roll button. The pirate will move to the spot with number rolled along a path containing all previous locations (like a real boardgame).
+The following will happen in each location:
+1 - the pirate doesn't get off the starting spot. Game Over.
+2 - Rum Barrel - 50% chance the rum is spoiled and the game is over. Otherwise, The player wins.
+3 - Kraken - The pirate is eaten. Game Over.
+4 - Treasure - The player wins.
+5 - Message in a bottle - Display a random funny message from a backend DB.
+6 - Rescue - the pirate is saved and the player wins.
+
+All results will be logged in a backend DB.
